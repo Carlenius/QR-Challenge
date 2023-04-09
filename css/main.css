@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 320px;
+  margin: 80px auto;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  box-shadow: 0px 10px 10px -5px rgba(63, 63, 63, 0.2);
+}
+
+img {
+  border-radius: 11px;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.4em;
+  padding-top: 20px;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 17px;
+  font-weight: bold;
+  line-height: 27px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  line-height: 17px;
+}
+
+.text {
+  width: 90%;
+  display: block;
+  margin: 0.5em auto;
+}
+
+.attribution {
+  font-family: "outfit";
+  font-weight: 300;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: hsl(218, 44%, 22%);
+}
+a:visited {
+  color: rgb(21, 114, 177);
+}
+
+span {
+  font-weight: 700;
+}/*# sourceMappingURL=main.css.map */
